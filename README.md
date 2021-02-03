@@ -63,7 +63,6 @@ To test you can use postman or similars. Or just a simple python script like thi
 import requests
 test_file = open("some_file", "rb")
 test_url = "http://localhost:port/api/file-s3/"
-files = { 'file': test_file }
 test_response = requests.post(test_url, files = {"file": test_file})
 if test_response.ok:
     print("Upload completed successfully!")
