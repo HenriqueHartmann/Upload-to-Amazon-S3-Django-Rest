@@ -9,10 +9,6 @@ DATABASES = {'default': env.db('SQLITE_URL')}
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'rgakvhaw(+62$%2dc-o5urjtz_@nk!7b6%_j4m80m5)us16bs)'
-
-DEBUG = True
-
 ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
